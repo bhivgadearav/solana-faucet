@@ -262,7 +262,7 @@ export default function Airdrop() {
                     <h1 className="text-5xl font-bold text-center mb-8 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">Solana Faucet</h1>
                     <p className="text-center mb-6 text-gray-300 text-xl">
                         Wanna try out projects on Solana?<br />
-                        Get sol airdrops on devnet you can make them real.
+                        Get sol airdrops on devnet so you can make them real.
                     </p>
                     {isWalletConnected && (
                         <Accordion type="single" collapsible className="mb-6">
