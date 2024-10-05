@@ -8,6 +8,8 @@ This project is a Solana faucet dApp built using React and Vite, designed for th
 
 - Airdrop SOL on the Solana Devnet.
 - Connect a wallet using the Solana Wallet Adapter.
+- Send SOL to another wallet
+- Verify wallet ownership before performing the SOL transfer.
 - Airdrop to a connected wallet or a specific public key.
 - Verify wallet ownership before performing the airdrop.
 
@@ -33,5 +35,8 @@ This project is a Solana faucet dApp built using React and Vite, designed for th
 2. **Airdrop SOL:**
    - You can either airdrop SOL to the connected wallet or input a `PublicKey` to airdrop to that address.
 
+3. **Transfer SOL:**
+   - You can either send SOL to another wallet only when you connect your wallet.
+
 3. **Verification:**
-   - The app will verify if the connected wallet matches the `PublicKey` before performing the airdrop.
+   - The app will verify if the connected wallet approves any of the above operation. Your wallet extension will popup and ask you to confirm the transaction.
